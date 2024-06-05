@@ -1,0 +1,27 @@
+/* src/App.css */
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background: #333;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.book-results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bookshelf .book-card {
+  width: 100%;
+}
